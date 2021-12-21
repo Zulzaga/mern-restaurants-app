@@ -1,0 +1,35 @@
+.Restaurants {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.Modal {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Title {
+  text-align: center;
+}
+.Filters {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+.Filter input {
+  margin: 10px;
+}
+.RestaurantsContainer {
+  margin: 50px;
+  text-align: center;
+}
+.Restaurants {
+  margin-right: 20px;
+  margin-left: 20px;
+}

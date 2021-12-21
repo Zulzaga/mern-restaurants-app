@@ -1,0 +1,11 @@
+.Collections {
+  margin: 50px;
+  text-align: center;
+}
+
+.Form {
+  margin: 50px 250px;
+}
+.Restaurants {
+  display: flex;
+}

@@ -1,0 +1,15 @@
+.Restaurant {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+}
+
+.CollectionInfo {
+  margin-top: 50px;
+}
