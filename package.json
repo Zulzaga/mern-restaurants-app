@@ -8,6 +8,9 @@
       "start": "cd server && npm install && npm start",
       "heroku-postbuild": "cd client && npm install && npm start"
     },
+  "engines": {
+    "node": "16.13.0"
+  }
   "author": "",
   "license": "ISC"
 }
