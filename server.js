@@ -13,7 +13,8 @@ app.use(express.static(path.join(__dirname, "../client/build")));
 app.use(cors());
 app.use(express.json());
 
-const uri = process.env.ATLAS_URI;
+const uri =
+  "mongodb+srv://admin-zulsar:123456abcd@cluster0.azhm7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(uri, { useNewUrlParser: true });
 
 const connection = mongoose.connection;
