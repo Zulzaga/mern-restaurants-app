@@ -176,9 +176,9 @@ const usersRouter = require("./routes/users");
 app.use("/api/restaurants", restaurantsRouter);
 app.use("/api/users", usersRouter);
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client/build/index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "client/build/index.html"));
+// });
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
