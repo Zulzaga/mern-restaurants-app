@@ -181,7 +181,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(path.join(__dirname, "client/build", "index.html"));
-  console.log(path.join(__dirname, "client/build"));
   console.log(`Server is running on port: ${port}`);
 });
