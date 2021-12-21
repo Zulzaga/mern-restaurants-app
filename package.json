@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildClient": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "cd client && npm install && npm run build",
+    "buildClient": "cd frontend && npm run build",
+    "install-client": "cd frontend && npm install",
+    "heroku-postbuild": "cd frontend && npm install && npm run build",
     "start": "node server.js",
-    "client": "cd client && npm start"
+    "client": "cd frontend && npm start"
   },
   "engines": {
     "node": "v16.13.0"
