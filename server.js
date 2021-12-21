@@ -174,11 +174,14 @@ const usersRouter = require("./routes/users");
 app.use("/api/restaurants", restaurantsRouter);
 app.use("/api/users", usersRouter);
 
-app.use(express.static(path.join(__dirname, "./client/build")));
+app.use(express.static(path.join(__dirname, "client/build")));
+
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build", "index.html"));
+  res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });
 
 app.listen(port, () => {
+  console.log(path.join(__dirname, "client/build", "index.html"));
+  console.log(path.join(__dirname, "client/build"));
   console.log(`Server is running on port: ${port}`);
 });
